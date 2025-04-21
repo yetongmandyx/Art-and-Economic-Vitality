@@ -1,0 +1,160 @@
+
+<head>
+    <title>Art and Vitality Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+  
+  <body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large" style="background-color: #c7bed8 !important;">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" style="background-color: #c7bed8;" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="visualizations.html" class="w3-bar-item w3-button w3-padding-large w3-white">Visualizations</a>
+    <a href="insights.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Insights</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+  </div>
+</div>
+  
+
+  
+  <!-- Header -->
+<header class="w3-container w3-center header-container" style="padding:128px 16px; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.somewhere-magazine.com/wp-content/uploads/2021/03/DSC4085-940x470.jpg') no-repeat center center; background-size: cover; color: white;">
+  <h1 class="w3-margin w3-jumbo">Visualizations</h1>
+  <p class="w3-xlarge">Exploring the Pulse of Creative Neighborhoods</p>
+  <a href="insights.html" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Conclusion</a>
+</header>
+
+
+
+
+<!-- Section 1: Where Creativity Lives -->
+<div class="w3-container" style="padding: 0 200px;">
+  <h1 style="font-style: italic; margin-bottom: 20px;">Where Creativity Lives</h1>
+  <div style="padding: 0 50px;">
+    <p class="w3-large" style="margin-bottom: 20px;">Walk through any New York neighborhood and you’ll feel it: some streets have more creative energy. Murals stretch across brick walls, pop-up attracts people in front of stores, and galleries transform old industrial buildings. But where does this energy actually concentrate — and what does it mean for the city around it?</p>
+    <p class="w3-large" style="margin-bottom: 20px;">The data visualization reveals clear patterns: neighborhoods like Chelsea, SoHo, and the Lower East Side emerge as dense clusters of creative spaces. Here, art isn’t decoration — it’s infrastructure. These areas don’t just happen to attract artists; they’re built around them, fostering ecosystems where galleries, studios, cafés, and late-night diners form an interconnected network of creative life.</p>
+    <div class="w3-center">
+      <img src="https://raw.githubusercontent.com/yetongmandyx/Art-and-Economic-Vitality/c3acaba0b615b973f4001f191d81f337f568b043/Gallery%20Density%20of%20NYC" alt="Gallery Density of NYC" style="width: 50%; margin: auto;">
+    </div>
+    <p class="w3-large" style="margin-bottom: 20px;">And this isn’t just about aesthetics. Cultural clustering signals how neighborhoods organize themselves — and how economies quietly build around creative capital. Our analysis shows that neighborhoods with higher densities of art spaces also report stronger household incomes and greater economic activity. The relationship between art and affluence isn’t incidental. It’s a pattern.</p>
+    <p class="w3-large" style="margin-bottom: 20px;">In New York City, art shapes more than galleries. It shapes neighborhoods, opportunity, and the invisible economies of expression.</p>
+  </div>
+  <div class="w3-center">
+    <img src="https://images.squarespace-cdn.com/content/v1/5e0b9bd8cfe80c0e8ac99618/1582130586873-RJYL6OYO79PO1V42KHDV/Annotation+2020-02-19+114249.jpg?format=2500w" alt="Art Image" style="width: 50%; margin: auto;">
+  </div>
+</div>
+
+<!-- Section 2: Affluence in the Arts -->
+<div class="w3-container" style="padding: 0 200px;">
+  <h1 style="font-style: italic; margin-bottom: 20px;">Affluence in the Arts</h1>
+  <div style="padding: 0 50px;">
+    <p class="w3-large" style="margin-bottom: 20px;">Once we mapped where galleries live, we asked: What kind of neighborhoods are these, economically?</p>
+    <p class="w3-large" style="margin-bottom: 20px;">The following scatterplot pairs gallery density with median household income. The result is striking: neighborhoods with more creative spaces tend to have higher household incomes. There are a few possible explanations:</p>
+    <ul class="w3-ul w3-text-black w3-large" style="list-style-type:disc; border-bottom: none; border-top: none; padding-left: 40px;">
+      <li style="border-bottom: none; padding: 0;">Art and creativity attract financial capital. Affluent residents often gravitate toward neighborhoods rich in culture, vibrancy, and aesthetic value.</li>
+      <li style="border-bottom: none; padding: 0;">Art districts frequently overlap with gentrification. As creative hubs gain cultural cachet, property values rise, and wealthier populations move in.</li>
+      <li style="border-bottom: none; padding: 0;">The arts stimulate local economies. Galleries bring foot traffic, and foot traffic sustains cafés, boutiques, and services — which, in turn, contribute to neighborhood affluence.</li>
+    </ul>
+    <div class="w3-center w3-light-grey" style="padding: 20px; width: 70%; margin: auto;">
+      <div class="flourish-embed flourish-scatter" data-src="visualisation/22631975"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22631975/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
+    </div>
+    <p class="w3-large" style="margin-bottom: 20px;">But this pattern isn’t purely linear and income is just one signal. When we looked at other indicators like employment density and job market strength, the same pattern appeared. Neighborhoods with active creative economies also show stronger employment ecosystems — another sign that culture isn’t a side effect of urban growth, but a driver of it.</p>
+  </div>
+</div>
+
+<!-- Section 3: A Ripple Effect on Employment -->
+<div class="w3-container" style="padding: 0 200px;">
+  <h1 style="font-style: italic; margin-bottom: 20px;">A Ripple Effect on Employment</h1>
+  <div style="padding: 0 50px;">
+    <p class="w3-large" style="margin-bottom: 20px;">Income alone doesn’t paint the full picture. Our heat map overlays unemployment rates with gallery density, and again, a pattern emerges: creative-rich neighborhoods often experience lower unemployment. It suggests that the creative economy acts as an economic catalyst.</p>
+    <div class="w3-center" style="padding: 20px;">
+      <div style="width: 80%; margin: auto;">
+        <div class="flourish-embed flourish-heatmap" data-src="visualisation/22621166"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22621166/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
+      </div>
+    </div>
+    <p class="w3-large" style="margin-bottom: 20px;">Not because everyone works in a gallery, but because the presence of cultural spaces increases business diversity. People spend time in creative neighborhoods. Businesses open to serve them. Culture isn’t charity – it’s infrastructure, which generates economic momentum. It sustains local economies, diversifies job markets, and contributes to overall neighborhood resilience.</p>
+    <p class="w3-large" style="margin-bottom: 20px;">If employment rates rise where art clusters, what happens to business opportunities and new developments in those same neighborhoods?</p>
+  </div>
+  <div class="w3-center">
+    <img src="https://www.thedoorwaygallery.com/art/cafe-montmartre-paris-76-x-101-cm-2500.jpg" alt="Art Image" style="width: 70%; margin: auto;">
+  </div>
+</div>
+<!-- Section 4: Where Businesses Bloom -->
+<div class="w3-container" style="padding: 0 200px;">
+  <h1 style="font-style: italic; margin-bottom: 20px;">Where Businesses Bloom</h1>
+  <div style="padding: 0 50px;">
+    <p class="w3-large" style="margin-bottom: 20px;">We know from urban economics that businesses tend to cluster. What’s striking in our data is how many kinds of businesses thrive around creative hubs along with higher income and lower employment rate.</p>
+    <p class="w3-large" style="margin-bottom: 20px;">Our bubble chart reveals a clear trend: as gallery density increases, so does the number of surrounding businesses. Larger bubbles highlight neighborhoods with bustling commercial activity — and those areas often overlap with creative clusters.</p>
+    <div class="w3-center" style="padding: 20px;">
+      <div style="width: 80%; margin: auto;">
+        <div class="flourish-embed flourish-bubble-chart" data-src="visualisation/22593903"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22593903/thumbnail" width="100%" alt="bubble-chart visualization" /></noscript></div>
+      </div>
+    </div>
+    <p class="w3-large" style="margin-bottom: 20px;">This pattern is based on foot traffic economics: Art draws people, People shop, eat, and linger. And the Neighborhood’s identity and reputation as a creative hub makes a district desirable for non-art businesses. Therefore, more creativity means more commerce and businesses of all kinds, banks, retailers, and service providers. Creative scenes foster ecosystems. Foot traffic increases as communities gather.</p>
+    <p class="w3-large" style="margin-bottom: 20px;">And what’s all this doing to property prices with such a rich cultural and economic developed neighborhoods?</p>
+  </div>
+</div>
+
+<!-- Section 5: Art and Real Estate -->
+<div class="w3-container" style="padding: 0 200px;">
+  <h1 style="font-style: italic; margin-bottom: 20px;">Art and Real Estate</h1>
+  <div style="padding: 0 50px;">
+    <p class="w3-large" style="margin-bottom: 20px;">Not surprisingly, property price goes higher as galleries gather and business prospers. Our boxplot analysis shows higher property prices in gallery-dense neighborhoods. It’s a familiar story: artists move into underinvested areas, cultivate a vibrant creative scene, and attract attention.</p>
+    <div class="w3-center" style="padding: 20px;">
+      <div style="width: 80%; margin: auto;">
+        <div class="flourish-embed flourish-scatter" data-src="visualisation/22633284"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22633284/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
+      </div>
+    </div>
+    <p class="w3-large" style="margin-bottom: 20px;">Businesses follow. Demand rises. Property prices climb. The cycle is often celebrated for revitalizing neighborhoods and equally criticized for displacing the very communities that made them special.</p>
+    <p class="w3-large" style="margin-bottom: 20px;">It’s also important to recognize that this isn’t only about gentrification. It’s about the value people inherently place on culture. Creative neighborhoods feel alive, authentic, and desirable — and that desirability carries real market value.</p>
+    <div class="w3-center">
+      <img src="https://i.guim.co.uk/img/media/8aa03b91512508b5df98150ddbb827d01167045e/0_0_1920_1152/master/1920.jpg?width=1900&dpr=2&s=none&crop=none" alt="Art Image" style="width: 70%; margin: auto;">
+    </div>
+    <p class="w3-large" style="margin-bottom: 20px;">Let’s see how these patterns — from gallery density to income, employment, business growth, and property values — intersect to reveal the broader story of how creative economies shape urban life.</p>
+  </div>
+</div>
+
+<!-- Overall Summary -->
+<div class="w3-container" style="padding: 0 200px;">
+  <h1 style="font-style: italic; margin-bottom: 20px;">Overall Summary</h1>
+  <div style="padding: 0 50px;">
+    <p class="w3-large" style="margin-bottom: 20px;">This final visualization reveals how art transcends aesthetics to become a powerful force within the urban ecosystem. Where galleries multiply, incomes rise, jobs follow, businesses grow, and property values climb. This isn’t coincidence. It’s culture as strategy. A tangible demonstration of how creative capital shapes the social, economic, and spatial realities of a city. In this visualization, each point represents a neighborhood, and its position, size, and color illustrate the layered relationship between creativity and economic development.</p>
+    <div class="w3-center" style="padding: 20px;">
+      <div style="width: 80%; margin: auto;">
+        <div class="flourish-embed flourish-scatter" data-src="visualisation/22741230"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22741230/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
+      </div>
+    </div>
+    <p class="w3-large" style="margin-bottom: 20px;">The patterns are unmistakable: Neighborhoods with high gallery density consistently cluster toward higher household incomes and business activity. Property values follow these cultural and commercial surges. Unemployment rates tend to drop in these areas.</p>
+    <p class="w3-large" style="margin-bottom: 20px;">But the deeper insight lies beyond the data points. Art transcends aesthetics. It’s not just something we look at — it’s something that builds cities, shapes economies, and defines the social character of neighborhoods. It fosters environments where ideas circulate, opportunities multiply, and communities thrive.</p>
+    <p class="w3-large" style="margin-bottom: 20px;">Culture, commerce, and community are not competing forces. They’re interdependent — forming ecosystems where creativity is both an outcome and a driver of economic and social vitality.</p>
+  </div>
+  <div class="w3-center" style="margin-bottom: 50px;">
+    <img src="https://img.freepik.com/premium-photo/vibrant-watercolor-illustration-manila-skyline-featuring-iconic-buildings-color_924727-127532.jpg?w=2000" alt="City Image" style="width: 90%; margin: auto;">
+  </div>
+</div>
+
+  <!-- Quote Section -->
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">“A city’s true wealth isn’t measured in square footage, but in the ideas, culture, and communities that fill its streets."</h1>
+  </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity"> 
+  <div class="w3-xxlarge w3-padding-32">
+    <a href="https://www.facebook.com/share/1FVYxRdhGr/?mibextid=wwXIfr" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/mandieee_mx/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/mandy-xiang-903424290/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+
+
+
+
+  

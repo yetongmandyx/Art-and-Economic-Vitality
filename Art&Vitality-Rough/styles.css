@@ -1,0 +1,29 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-paint-brush,.fa-heartbeat {font-size:200px}
+
+.header-container {
+  position: relative;
+}
+
+.credit-text {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  font-size: 16px;
+}
+
+.w3-red {
+  background-color: #c7bed8!important;
+  color: #000; /* adjust text color if needed */
+}
+
+.w3-bar .w3-button:hover {
+  background-color: #c7bed8 !important;
+  color: #000; /* adjust text color if needed */
+}
+
+body {
+  margin-top: 46px; /* adjust this value to match the height of your navbar */
+}
+
